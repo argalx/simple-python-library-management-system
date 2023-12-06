@@ -296,13 +296,13 @@ while True:
 
                                                         elif userInput == 2:
                                                             # First Name
-                                                            studentFirstName = input('Student First Name Update: ')
+                                                            studentLastName = input('Student Last Name Update: ')
 
                                                             # Initialize Student Instance
-                                                            student = Student(id=studentId, firstName=studentFirstName)
+                                                            student = Student(id=studentId, lastName=studentLastName)
 
                                                             # Call updateStudent Method
-                                                            print(student.updateStudent('firstName'))
+                                                            print(student.updateStudent('lastName'))
 
                                                             # End Loops
                                                             updateRecord = False
