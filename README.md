@@ -9,7 +9,7 @@ A simple library management system made in Python Programming Language that allo
 ![simple-python-library-system-ERD](https://github.com/argalx/simple-python-library-management-system/assets/31496662/26ddb7ae-07b8-4216-8995-edf337fe9294)
 
 ## Modules
-- Student Management - TBR
+- Student Management - GTG
 - Book Management - WIP
 - Book Borrowing - WIP
 
