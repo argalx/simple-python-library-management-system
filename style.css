@@ -1,0 +1,17 @@
+ha-state-icon$: | :host {
+    animation: illumination 2s infinite;
+}
+
+@keyframes illumination {
+
+    0%,
+    100% {
+        clip-path: inset(0 0 0 0);
+    }
+
+    80% {
+        clip-path: polygon(0% 99%, 20% 55%, 22% 37%, 39% 20%, 61% 21%, 77% 35%, 79% 57%, 99% 100%);
+    }
+}
+
+D
